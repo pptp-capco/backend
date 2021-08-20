@@ -55,7 +55,9 @@ const enquiries = [
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
+    setTimeout(() => {
         res.send(enquiries)
+    }, 4000)
 })
 
 module.exports = router
