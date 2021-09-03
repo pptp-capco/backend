@@ -12,7 +12,7 @@ const customerEnquiries = {
     senderBIC: 'SBIC-012',
     generatedTime: new Date(),
     sgsStatus: 'valid',
-    messageContent: 'this message is self destructive in 5 seconds',
+    messageContent: 'these are the details of the selected enquiry',
 }
 
 /* GET users listing. */
