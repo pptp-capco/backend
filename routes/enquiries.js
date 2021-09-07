@@ -60,4 +60,10 @@ router.get('/', function (req, res, next) {
     }, 4000)
 })
 
+router.post('/', function (req, res, next) {
+    setTimeout(() => {
+        res.send(enquiries)
+    }, 4000)
+})
+
 module.exports = router
